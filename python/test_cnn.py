@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 # Load overlay
-ol = Overlay("overlay/cnn_system.bit")
+ol = Overlay("overlay/cnn_system_wrapper.bit")
 cnn = ol.cnn_conv3x3_0
 
 H = 5
