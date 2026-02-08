@@ -30,7 +30,7 @@ dma_out = ol.axi_dma_out   # output DMA
 # ----------------------------
 W = np.load("weights_int8.npy").astype(np.int8)
 B = np.load("bias_int8.npy").astype(np.int8)
-scale = np.load("weight_scale.npy").item()
+scale = 1.0 / 127.0
 
 # Flatten weights in streaming order
 w_stream = []
