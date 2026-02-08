@@ -18,7 +18,7 @@ OUT_W = IMG_W - 2
 # ----------------------------
 # Load overlay
 # ----------------------------
-ol = Overlay("yolo_conv.bit")
+ol = Overlay("design_1.bit")
 ip = ol.yolo_conv_core_0   # adjust name if needed
 
 dma_fm = ol.axi_dma_fm     # feature map DMA
