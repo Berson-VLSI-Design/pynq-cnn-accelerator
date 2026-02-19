@@ -335,7 +335,7 @@ Add hardware performance counters (via AXI GPIO) to measure exact cycle counts f
 
 ## Authors
 
-Developed as part of the VLSI / Embedded Systems Design coursework — **Berson VLSI Design Group**.
+Developed as part of the ARM-SOC Hackathon team.
 
 ---
 
